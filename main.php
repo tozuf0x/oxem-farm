@@ -33,9 +33,7 @@ class Farm {
             $days = 7;
         } else if (strtolower($period) == 'month') {
             $days = 30;
-        } else {
-            print_r('Wrong period!');
-        }
+        } 
 
         
         foreach ($this->barn as $animal => $animalArray) {
